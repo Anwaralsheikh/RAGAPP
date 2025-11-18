@@ -4,9 +4,14 @@ This is a minimal implementation of the RAG model for question answering.
 
 # Requirements
 * Python 3.8 or later
-* Create a new environment
-* Activate the environment
-* Install the required packages 
+Install Python using MiniConda
+1. Download and install MiniConda
+2. Create a new environment using the following command:
+
+* $ conda create -n <env-name> python=3.8
+3.  Activate the environment
+* $ conda activate <en-name>
+4.  Install the required packages 
 $ pip install -r requirements.txt
 
 # Setup the environment variables

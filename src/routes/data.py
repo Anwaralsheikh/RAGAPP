@@ -32,6 +32,7 @@ async def upload_data(project_id:str,file:UploadFile,
         orig_file_name=file.filename,
         project_id=project_id
     )
+    print("file_path",file_path)
     # file_path = os.path.join(
     #     project_dir_path,
     #     file.filename
